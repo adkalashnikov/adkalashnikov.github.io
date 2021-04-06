@@ -5,20 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Denis portfolio</title>
 </head>
-<body style="font-family: sans-serif;">
-<h1>Денис - примеры верстки</h1>
-<ul>
-    <li><a href="./p1/index.html">пример 1</a></li>
-    <li><a href="./p2/index.html">пример 2</a></li>
-    <li><a href="./p3/index.html">пример 3</a></li>
-    <li><a href="./p4/index.html">пример 4</a></li>
-</ul>
+<body>
+
+<div>
+    <h1>Денис - примеры верстки</h1>
+    <ul>
+        <li><a href="./p1/index.html">пример 1</a></li>
+        <li><a href="./p2/index.html">пример 2</a></li>
+        <li><a href="./p3/index.html">пример 3</a></li>
+        <li><a href="./p4/index.html">пример 4</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <div class="box">
+        <span style="--i:1;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:2;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:3;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:4;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:5;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:6;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:7;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:8;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:9;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:10;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:11;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:12;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:13;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:14;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:15;"><i>CSS</i> Is <i>A</i>wesome</span>
+        <span style="--i:16;"><i>CSS</i> Is <i>A</i>wesome</span>
+    </div>
+</div>
+
+<style>@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);*{margin:0;padding:0;box-sizing:inherit;font-family:'Press Start 2P',cursive}body{display:flex;justify-content:space-between;min-height:100vh;background:#e7e4e4;overflow:hidden;padding:2.5%}ul{margin-top:35px;padding-left:20px}li{margin-bottom:12px}.container{display:none;justify-content:center;align-items:center;position:absolute;right:0;width:50%;height:50%;top:50%;transform:translateY(-28%)}@media (min-width:768px){.container{display:flex}}.container .box{transform-style:preserve-3d;animation:animate 25s linear infinite}@keyframes animate{0%{transform:perspective(1000px) rotateX(0) rotate(25deg)}100%{transform:perspective(1000px) rotateX(360deg) rotate(25deg)}}.container .box span{position:absolute;color:#fff;font-size:2.5em;letter-spacing:.12em;white-space:nowrap;text-transform:uppercase;font-weight:600;padding:0 10px;background:linear-gradient(100deg,transparent,rgba (0,0,0,.5),transparent);line-height:.86em;transform-style:preserve-3d;text-shadow:0 5px 15px rgba(0,0,0,.25);transform:translate(-50%,-50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(135px)}.container .box span i:nth-child(1){font-style:initial;color:#ff246f}.container .box span i:nth-child(2){font-style:initial;color:#12b5ff}</style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LJYLN634QB"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() {
+        dataLayer.push(arguments);
+    }
     gtag('js', new Date());
-
     gtag('config', 'G-LJYLN634QB');
 </script>
 </body>
