@@ -1,49 +1,361 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Denis portfolio</title>
+    <!-- Google Fots -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Remixicon Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Remixicon Icon -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet">
+    
+    <title>Denis Portfolio</title>
 </head>
 <body>
-
-<div>
-    <h1>Денис - приклади верстки</h1>
-    <ul>
-        <li><a href="./p5/index.html">приклад 1</a></li>
-        <li><a href="https://symptomme.com/">приклад 2</a></li>
-        <li><a href="http://2180799.tp445203.web.hosting-test.net/">приклад 3</a></li>
-        <li><a href="https://www.eonlaser.com">приклад 4</a></li>
-        <li><a href="https://weedweek.com/">приклад 5</a></li>
-        <li><a href="./p2/index.html">приклад 6</a></li>
-        <li><a href="./p3/index.html">приклад 7</a></li>
-        <li><a href="./p4/index.html">приклад 8</a></li>
-        <li><a href="./p1/index.html">приклад 9</a></li>
-    </ul>
-</div>
-
-<div class="container">
-    <div class="box">
-        <span style="--i:1;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:2;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:3;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:4;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:5;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:6;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:7;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:8;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:9;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:10;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:11;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:12;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:13;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:14;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:15;"><i>CSS</i> Is <i>A</i>wesome</span>
-        <span style="--i:16;"><i>CSS</i> Is <i>A</i>wesome</span>
+<!-- header -->
+<header class="header" id="site-header">
+    <div class="container">
+        <div class="header-inner">
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                <span>Д</span>Днеис
+            </a>
+            <!-- logo -->
+            <!-- social -->
+            <ul class="social">
+                <li><a href="https://github.com/adkalashnikov" target="_blank"><i class="ri-github-fill"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/html-css-wp-developer/" target="_blank"><i class="ri-linkedin-fill"></i></a></li>
+            </ul>
+            <!-- social -->
+        </div>
+    </div>
+</header>
+<!-- header -->
+<!-- banner -->
+<div class="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-5">
+                <figure>
+                    <img src="./assets/images/den1.jpg">
+                </figure>
+            </div>
+            
+            <div class="col-12 col-md-7" 
+                 data-aos="fade-left" 
+                 data-aos-duration="400"
+                 data-aos-anchor-placement="center-center"
+                 data-aos-easing="ease">
+                <section>
+                    <h1>
+                        <span>Привіт!</span>
+                        Денис <br> WordPress / HTML розробник
+                    </h1>
+                    <ul class="numbervalulist">
+                        <li>
+                            <strong>8+</strong>
+                            <span>Років досвіду</span>
+                        </li>
+                        <li>
+                            <strong>30</strong>
+                            <span>Проектів</span>
+                        </li>
+                        <li>
+                            <strong>30</strong>
+                            <span>Щасливих клієнтів</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
     </div>
 </div>
+<!-- banner -->
 
-<style>@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);*{margin:0;padding:0;box-sizing:inherit;font-family:'Press Start 2P',cursive}body{display:flex;justify-content:space-between;min-height:100vh;background:#e7e4e4;overflow:hidden;padding:2.5%}ul{margin-top:35px;padding-left:20px}li{margin-bottom:12px}.container{display:none;justify-content:center;align-items:center;position:absolute;right:0;width:50%;height:50%;top:50%;transform:translateY(-28%)}@media (min-width:768px){.container{display:flex}}.container .box{transform-style:preserve-3d;animation:animate 25s linear infinite}@keyframes animate{0%{transform:perspective(1000px) rotateX(0) rotate(25deg)}100%{transform:perspective(1000px) rotateX(360deg) rotate(25deg)}}.container .box span{position:absolute;color:#fff;font-size:2.5em;letter-spacing:.12em;white-space:nowrap;text-transform:uppercase;font-weight:600;padding:0 10px;background:linear-gradient(100deg,transparent,rgba (0,0,0,.5),transparent);line-height:.86em;transform-style:preserve-3d;text-shadow:0 5px 15px rgba(0,0,0,.25);transform:translate(-50%,-50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(135px)}.container .box span i:nth-child(1){font-style:initial;color:#ff246f}.container .box span i:nth-child(2){font-style:initial;color:#12b5ff}</style>
+<!-- about -->
+<div class="about-section" data-aos="fade-up" data-aos-delay="350" data-aos-easing="ease">
+    <div class="container">
+        <section>
+            <h2 class="heading">Про мене</h2>
+            <p>
+                Верстаю під любі платформи, кросбраузерно, адаптивно, mobile first. <br>
+                Використовую препроцессори, компілятори та шаблонізатори. CSS  - флекси  - гріди  - фреймворки. <br>
+                Також створюю кастомні WordPress теми з нуля без пейджбілдерів. <br>
+                Якщо взяв проект у роботу – значить зроблю.
+            </p>
+            <div class="button-sec text-center">
+                <a href="./assets/DenysK_CV.pdf"  target="_blank" class="button">Завантажити резюме</a>
+            </div>
+        </section>
+    </div>
+</div>
+<!-- about -->
+
+<!--  Skills -->
+<div class="skills-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="heading">Core Skills</h2>
+                <ul class="skills-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>SASS</li>
+                    <li>LESS</li>
+                    <li>SVG</li>
+                    <li>GIT</li>
+                    <li>Twig</li>
+                    <li>PUG</li>
+                </ul>
+            </div>
+            
+            <div class="col-12 col-md-6">
+                <h2 class="heading">Other Skills</h2>
+                <ul class="skills-list">
+                    <li>WordPress</li>
+                    <li>WP Themes</li>
+                    <li>Elementor</li>
+                    <li>Responsive Web Design</li>
+                    <li>CSS Animation</li>
+                    <li>CSS3</li>
+                    <li>HTML5</li>
+                    <li>AJAX</li>
+                    <li>Webpack</li>
+                    <li>Figma</li>
+                    <li>Zeplin</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  Skills -->
+
+<!--  Work -->
+<div class="work-section">
+    <div class="container">
+        <h2 class="heading">Останні роботи</h2>
+        
+        <div class="work-list-section">
+            <div class="work-list" data-aos="fade-down-left" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Development landing</h3>
+                            
+                            <ul class="skills-list">
+                                <li>HTML / CSS / JS</li>
+                                <li>Agile form</li>
+                            </ul>
+                            
+                            <div class="work-list__bottom">
+                                <a href="./p5/index.html" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="./p5/index.html" target="_blank"><img src="./assets/images/w_1.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-right" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Doctors Online</h3>
+
+                            <ul class="skills-list">
+                                <li>WordPress Custom Theme</li> <li>Turnkey site</li>
+                            </ul>
+
+                            <div class="work-list__bottom">
+                                <a href="https://symptomme.com/" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="https://symptomme.com/" target="_blank"><img src="./assets/images/w_2.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-left" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">WP Site 3</h3>
+                            
+                            <ul class="skills-list">
+                                <li>WordPress Custom Theme</li>
+                            </ul>
+                            
+                            <div class="work-list__bottom">
+                                <a href="http://miivibir.com/" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="http://miivibir.com/" target="_blank"><img src="./assets/images/w_3.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-right" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Body Contouring</h3>
+
+                            <ul class="skills-list">
+                                <li>WordPress Custom Theme</li>
+                            </ul>
+
+                            <div class="work-list__bottom">
+                                <a href="https://www.eonlaser.com/" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="https://www.eonlaser.com/" target="_blank"><img src="./assets/images/w_4.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-left" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">WeedWeek</h3>
+                            
+                            <ul class="skills-list">
+                                <li>WordPress Custom Theme</li>
+                            </ul>
+                            
+                            <div class="work-list__bottom">
+                                <a href="https://www.weedweek.com/" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="https://www.weedweek.com/" target="_blank"><img src="./assets/images/w_5.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-right" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Advisor page</h3>
+
+                            <ul class="skills-list">
+                                <li>HTML / CSS / JS</li>
+                            </ul>
+
+                            <div class="work-list__bottom">
+                                <a href="./p2/index.html" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="./p2/index.html" target="_blank"><img src="./assets/images/w_6.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-left" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Wedding site</h3>
+                            
+                            <ul class="skills-list">
+                                <li>HTML / CSS / JS</li>
+                                <li>WordPress Custom Theme</li>
+                            </ul>
+                            
+                            <div class="work-list__bottom">
+                                <a href="./p3/index.html" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="./p3/index.html" target="_blank"><img src="./assets/images/w_7.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-right" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Heating oil Supply</h3>
+
+                            <ul class="skills-list">
+                                <li>HTML / CSS / JS</li>
+                                <li>WordPress Custom Theme</li>
+                            </ul>
+
+                            <div class="work-list__bottom">
+                                <a href="./p3/index.html" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="./p3/index.html" target="_blank"><img src="./assets/images/w_8.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="work-list" data-aos="fade-down-left" data-aos-easing="ease" data-aos-anchor-placement="center-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-7">
+                        <section class="d-md-flex flex-md-column justify-content-md-center h-100">
+                            <h3 class="work-tilte">Transmarine</h3>
+                            
+                            <ul class="skills-list">
+                                <li>HTML / CSS / JS</li>
+                                <li>WordPress Custom Theme</li>
+                            </ul>
+                            
+                            <div class="work-list__bottom">
+                                <a href="./p1/index.html" target="_blank" class="button">Подивитись</a>
+                            </div>
+                        </section>
+                    </div>
+                    
+                    <div class="col-12 col-md-5">
+                        <figure><a href="./p1/index.html" target="_blank"><img src="./assets/images/w_9.jpg"></a></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  Work -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./assets/js/main.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-LJYLN634QB"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
