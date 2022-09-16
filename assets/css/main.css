@@ -428,6 +428,17 @@ span.department {
     margin-top: 20px;
 }
 
+.work-list [class^="col-"] {
+    overflow: hidden;
+}
+
+.work-list img {
+    transition: transform ease 1s;
+}
+.work-list img:hover {
+    transform: scale(1.1);
+}
+
 .work-det-hed {
     padding-top: 42px;
     padding-bottom: 80px;

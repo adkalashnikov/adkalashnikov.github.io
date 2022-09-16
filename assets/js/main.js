@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 setTimeout(() => {
     AOS.init({
         once: true,
-        duration: 500,
+        duration: 1000,
         disable() {
             return window.innerWidth < 992;
         }
